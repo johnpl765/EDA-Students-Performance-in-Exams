@@ -1,5 +1,62 @@
+# Student Performance EDA
+**Note:** Traducido a español más adelante.
+
+This repository contains an Exploratory Data Analysis (EDA) performed on the **Students Performance in Exams** dataset, sourced from Kaggle:  
+https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data
+
+The file **StudentsPerformance.csv** is included in this repository to make it easier to reproduce the analyses. If you want to explore other approaches and notebooks created by the community, you can visit the dataset page directly on Kaggle.
+
+## Repository contents
+
+- Main notebook (Jupyter Notebook): `StudentPerformance_EDA.ipynb`
+- Dataset: `StudentsPerformance.csv`
+- Generated files: Sweetviz and Pandas Profiling reports (optional if included)
+
+## How to use this project
+
+### Using Jupyter Notebook (local)
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/johnpl765/EDA-Students-Performance-in-Exam.git
+   ```
+
+2. Open Jupyter Notebook and navigate to the cloned folder.
+
+3. Make sure the file `StudentsPerformance.csv` is in the same folder as the notebook.
+
+4. Run the notebook cells step by step.
+
+### Using Google Colab
+
+1. Open Google Colab: https://colab.research.google.com/
+
+2. Upload the notebook `StudentPerformance_EDA.ipynb` to the Colab environment.
+
+3. Upload the file `StudentsPerformance.csv` to the temporary Colab environment using the side panel ➔ `Files` tab ➔ `Upload` button.
+
+4. Ensure the code reads the correct file name, for example:
+   ```python
+   df = pd.read_csv('StudentsPerformance.csv')
+   ```
+
+   This will read the file uploaded to the Colab environment.
+
+## About the dataset
+
+This dataset contains information about students, including demographic variables and their scores in math, reading, and writing. It is ideal for exploring relationships between social factors and academic performance, and it is widely used for practicing EDA and supervised modeling.
+
+## Credits
+
+- Original dataset: [Students Performance in Exams - Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data)
+- Analysis and code: developed in this repository for educational and practice purposes.
+
+We hope this helps you with your projects and learning.
+
+------------------------------------------------------------------------------------------
+
 # Student Performance EDA  
-**Note:** English translation is available below.
+
 
 Este repositorio contiene un análisis exploratorio de datos (EDA) realizado sobre el dataset **Students Performance in Exams**, tomado de Kaggle:  
 https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data
@@ -53,58 +110,3 @@ Este dataset contiene información sobre estudiantes, incluyendo variables demog
 
 Esperamos que te sirva para tus proyectos y aprendizaje.
 
-------------------------------------------------------------------------------------------
-
-# Student Performance EDA
-
-This repository contains an Exploratory Data Analysis (EDA) performed on the **Students Performance in Exams** dataset, sourced from Kaggle:  
-https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data
-
-The file **StudentsPerformance.csv** is included in this repository to make it easier to reproduce the analyses. If you want to explore other approaches and notebooks created by the community, you can visit the dataset page directly on Kaggle.
-
-## Repository contents
-
-- Main notebook (Jupyter Notebook): `StudentPerformance_EDA.ipynb`
-- Dataset: `StudentsPerformance.csv`
-- Generated files: Sweetviz and Pandas Profiling reports (optional if included)
-
-## How to use this project
-
-### Using Jupyter Notebook (local)
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/johnpl765/EDA-Students-Performance-in-Exam.git
-   ```
-
-2. Open Jupyter Notebook and navigate to the cloned folder.
-
-3. Make sure the file `StudentsPerformance.csv` is in the same folder as the notebook.
-
-4. Run the notebook cells step by step.
-
-### Using Google Colab
-
-1. Open Google Colab: https://colab.research.google.com/
-
-2. Upload the notebook `StudentPerformance_EDA.ipynb` to the Colab environment.
-
-3. Upload the file `StudentsPerformance.csv` to the temporary Colab environment using the side panel ➔ `Files` tab ➔ `Upload` button.
-
-4. Ensure the code reads the correct file name, for example:
-   ```python
-   df = pd.read_csv('StudentsPerformance.csv')
-   ```
-
-   This will read the file uploaded to the Colab environment.
-
-## About the dataset
-
-This dataset contains information about students, including demographic variables and their scores in math, reading, and writing. It is ideal for exploring relationships between social factors and academic performance, and it is widely used for practicing EDA and supervised modeling.
-
-## Credits
-
-- Original dataset: [Students Performance in Exams - Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data)
-- Analysis and code: developed in this repository for educational and practice purposes.
-
-We hope this helps you with your projects and learning.
